@@ -1,7 +1,7 @@
 
 services:
   fastapijenkins:
-    image: fastapijenkins
+    image: https://github.com/hocinilotfi/jenkinsfile-postman-fastapi
     build:
       context: .
       dockerfile: ./Dockerfile
@@ -11,4 +11,4 @@ services:
       - jenkins
 networks:
   jenkins:
-    external: true
+    driver: bridge
