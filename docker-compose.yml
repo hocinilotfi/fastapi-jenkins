@@ -1,7 +1,7 @@
 
 services:
   fastapijenkins:
-    image: https://github.com/hocinilotfi/jenkinsfile-postman-fastapi
+    image: fastapijenkins
     build:
       context: .
       dockerfile: ./Dockerfile
