@@ -7,4 +7,4 @@ async def root():
 
 @app.get('/logwire')
 async def root():
-    return {'messages': 'Hello from logwire'}
+    return {'amessages': 'Hello from logwire'}
