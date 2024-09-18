@@ -3,8 +3,8 @@ app = FastAPI()
 
 @app.get('/')
 async def root():
-    return {'message': 'Hello World'}
+    return {'amssage': 'Hello World'}
 
 @app.get('/logwire')
 async def root():
-    return {'amessages': 'Hello from logwire'}
+    return {'amssages': 'Hello from logwire'}
