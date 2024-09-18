@@ -8,3 +8,8 @@ services:
       dockerfile: ./Dockerfile
     ports:
       - 8988:8988
+    networks:
+      - jenkins
+networks:
+  jenkins:
+    driver: bridge
